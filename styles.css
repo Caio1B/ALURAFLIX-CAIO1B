@@ -1,0 +1,59 @@
+body {
+
+    color: aqua;
+
+    background-color: blueviolet;
+
+    margin: 0px;
+    font-family: "Agdasima", sans-serif;
+}
+
+header {
+    border-bottom: solid 2px black;
+    margin: 20px;
+    padding: 10;
+    font-size: 36px;
+    color: lime;
+
+
+}
+
+.chamada {
+    background: purple;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 60px;
+}
+
+h1 {
+
+    font-size: 50px;
+}
+
+p {
+    font-size: 30;
+
+}
+
+img{
+
+    height: 200px;
+}
+
+
+.categoria-filmes{
+  display: flex;
+  overflow-x:auto ;
+  gap: 20px;
+}
+
+.categoria{
+   padding-left: 20px;
+   padding-right: 20px;
+
+}
